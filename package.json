@@ -1,0 +1,12 @@
+{
+  "name": "mrglowra-premium",
+  "version": "1.0.0",
+  "description": "Mr Glowra Premium Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
