@@ -1,12 +1,13 @@
 {
   "name": "mrglowra-premium",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sync:blogs": "node scripts/sync-blogs.mjs"
   },
   "dependencies": {
     "next": "^15.5.0",
